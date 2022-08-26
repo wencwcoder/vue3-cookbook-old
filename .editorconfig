@@ -1,0 +1,23 @@
+# 根文件
+root = true
+
+# 支持的属性
+# indent_style -- space / tab
+# indent_size
+# tab_width
+# end_of_line (on save) -- lf / cr / crlf
+# insert_final_newline (on save)
+# trim_trailing_whitespace (on save)
+
+# 匹配全部文件
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# 匹配部分文件
+[*.{js,jsx,ts,tsx,vue}]
+indent_style = space
+indent_size = 2
+# indent_style = tab
+# tab_width = 2
