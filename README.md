@@ -29,7 +29,6 @@ Vue CLI v5.0.8
 ? Save this as a preset for future projects? No
 
 # Vite 二选一
-npm init vite@latest
 npm create vite@latest
 ```
 
@@ -48,5 +47,7 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 
 ## VSCode Extension
 
+- Vue Language Features (Volar)：[https://marketplace.visualstudio.com/items?itemName=Vue.volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- TypeScript Vue Plugin (Volar)：[https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
 - EditorConfig for VS Code：[https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - Stylelint：[https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)

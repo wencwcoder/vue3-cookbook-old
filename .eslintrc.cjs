@@ -34,5 +34,7 @@ module.exports = {
   },
   // 插件
   // plugins: [],
-  rules: {},
+  rules: {
+    "@typescript-eslint/no-explicit-any": 0,
+  },
 };
