@@ -1,20 +1,32 @@
-<script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
-
 <template>
-  <div>
+  <!-- <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  </div> -->
+  <HelloWorld :msg="msg" @changeMsg="changeMsg" />
 </template>
+
+<script setup lang="ts">
+// This starter template is using Vue 3 <script setup> SFCs
+// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
+import { nextTick, ref } from "vue";
+import HelloWorld from "./components/HelloWorld.vue";
+
+const msg = ref<string>("Vite + Vue");
+const changeMsg = (value: string) => {
+  msg.value = value;
+};
+
+// 子组件实例
+const childRef = ref<InstanceType<typeof HelloWorld>>();
+nextTick(() => {
+  console.log(childRef.value);
+});
+</script>
 
 <style scoped>
 .logo {
