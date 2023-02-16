@@ -3,10 +3,10 @@
 ## Install
 
 ```bash
-# vue3 官方旧版
+# vue3 官网旧版
 npm install vue@next
 
-# vue3 官方新版
+# vue3 官网新版
 npm init vue@latest
 
 # Vite
@@ -26,7 +26,7 @@ Vue CLI v5.0.8
 ? Use history mode for router? (Requires proper server setup for index fallback in production) Yes
 ? Pick a CSS pre-processor (PostCSS, Autoprefixer and CSS Modules are supported by default): Less
 ? Pick a linter / formatter config: Prettier
-? Pick additional lint features: Lint on save   
+? Pick additional lint features: Lint on save
 ? Pick a unit testing solution: Jest
 ? Where do you prefer placing config for Babel, ESLint, etc.? In dedicated config files
 ? Save this as a preset for future projects? No
