@@ -3,11 +3,14 @@
 ## Install
 
 ```bash
-# vue3 旧版
+# vue3 官方旧版
 npm install vue@next
 
-# vue3 新版
+# vue3 官方新版
 npm init vue@latest
+
+# Vite
+npm create vite@latest
 
 # @vue/cli 5.0.8
 npm install -g @vue/cli
@@ -27,9 +30,6 @@ Vue CLI v5.0.8
 ? Pick a unit testing solution: Jest
 ? Where do you prefer placing config for Babel, ESLint, etc.? In dedicated config files
 ? Save this as a preset for future projects? No
-
-# Vite 二选一
-npm create vite@latest
 ```
 
 ## Recommended IDE Setup
